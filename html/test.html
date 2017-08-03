@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<select>
+    <option>Пункт 1</option>
+    <option>Пункт 2</option>
+</select>
+
+<form method="post" action="/create-record">
+    <p><b>Прізвище</b><br>
+        <input size="40" name="lastName">
+    </p>
+    <p><b>Ім'я</b><br>
+        <input size="40" name="firstName">
+    </p>
+
+    <p><b>Група</b><Br>
+        <input type="radio" name="browser" value="ie" name="group"> Сім'я<Br>
+        <input type="radio" name="browser" value="opera" name="group"> Робота<Br>
+        <input type="radio" name="browser" value="firefox" name="group"> Інше<Br>
+    </p>
+
+    <input type="date" name="calendar" value="2017-06-01"
+           max="2019-06-04" min="2017-05-29">
+
+    <p><input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
